@@ -1,0 +1,36 @@
+@import "elements/home";
+@import "elements/form";
+@import "elements/logoCenter";
+@import "elements/sweetPopups";
+@import "elements/mainTabs";
+@import "elements/menuBar";
+@import "elements/logoLeft";
+@import "elements/_description";
+@import "elements/_popUp";
+@import "elements/_login";
+
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  //transition:.6s linear;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+

@@ -1,0 +1,183 @@
+
+
+.description-container {
+  display: flex;
+  font-size: 17px;
+  margin-top: 40px;
+  margin-left: 110px;
+  font-family: "Life Savers", cursive;
+  font-weight: 700;
+
+  @media (max-width: 1250px) {
+    margin-left: 90px;
+  }
+
+  @media (max-width: 1200px) {
+    margin-left: 60px;
+  }
+
+  @media (max-width: 1150px) {
+    margin-left: 40px;
+  }
+
+  @media (max-width: 800px) {
+    margin-top: 100px;
+  }
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0
+  }
+
+  .description-left-side {
+    margin-right: 40px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+
+    @media (max-width: 700px) {
+      margin-right: 0;
+    }
+
+    .description-image {
+      width: 400px;
+      height: 600px;
+      border-radius: 40px;
+      cursor: pointer;
+
+      @media (max-width: 900px) {
+        width: 300px;
+        height: 450px;
+      }
+
+    }
+
+  }
+
+
+
+  .description-content {
+    margin-top: 5px;
+    line-height: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    @media (max-width: 700px) {
+      margin: 0 20px;
+    }
+
+    .description-info {
+      line-height: 25px;
+      text-align: justify;
+
+      @media (max-width: 700px) {
+        text-align: center;
+      }
+
+      .title-info {
+        line-height: 40px;
+        margin-bottom: 20px;
+        text-align: left;
+        margin-right: 20px;
+
+        @media (max-width: 900px) {
+          font-size: 13px;
+          line-height: 25px;
+        }
+        @media (max-width: 700px) {
+          text-align: center;
+          margin-top: 40px;
+          margin-right: 0;
+        }
+
+
+        h1 {
+          margin-bottom: 20px;
+
+          @media (max-width: 900px) {
+            margin-bottom: 10px;
+          }
+        }
+      }
+
+      .review {
+        margin-top: 35px;
+        width: 700px;
+        max-height: 120px;
+        line-height: 20px;
+        margin-right: 30px;
+        display: inline-block;
+        overflow-y: hidden;
+        overflow-x: inherit;
+        padding: 5px 20px 5px 0;
+        box-sizing: border-box;
+        font-weight: 400;
+        font-family: "Life Savers", cursive;
+        white-space: pre-wrap;
+
+        @media (max-width: 900px) {
+          max-height: 200px;
+        }
+
+        @media (max-width: 700px) {
+          width: 80vw;
+          max-height: 207px;
+          text-align: center;
+          margin-right: 0;
+        }
+
+      }
+
+      .review-read-more {
+        font-size: 25px;
+        width: 100%;
+        background-color: white;
+        text-align: right;
+        padding-right: 50px;
+        margin-top: 15px;
+
+        @media (max-width: 800px) {
+          padding: 0;
+          margin-top: 40px;
+          text-align: center;
+        }
+
+      }
+    }
+
+    .description-buttons {
+      width: 100%;
+      display: flex;
+
+      @media (max-width: 700px) {
+        margin-top: 70px;
+        margin-bottom: 80px;
+        justify-content: space-around;
+      }
+
+      .button {
+        font-size: 27px;
+        background-color: transparent;
+        font-family: 'Waiting for the Sunrise', cursive;
+        font-weight: 700;
+        color: black;
+        margin-right: 40px;
+        margin-left: 10px;
+        margin-bottom: -20px;
+
+        @media (max-width: 900px) {
+          font-size: 27px;
+        }
+
+        @media (max-width: 700px) {
+          margin: 0;
+        }
+      }
+
+    }
+
+  }
+
+}

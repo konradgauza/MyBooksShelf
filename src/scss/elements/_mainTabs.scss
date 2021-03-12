@@ -1,0 +1,137 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  height: 70rem;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .searchDiv {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    @media (max-width: 1100px) {
+      width: 34%;
+    }
+
+    @media (max-width: 800px) {
+      width: 100%;
+      margin-top: 140px;
+      align-items: center;
+    }
+
+    .search {
+      outline: none;
+      width: 85%;
+      height: 40px;
+      background-color: white;
+      border: none;
+      border-bottom: 2px solid black;
+      border-radius: unset;
+      padding: 10px;
+      margin-bottom: 60px;
+      margin-left: 40px;
+      font-size: 25px;
+      font-family: 'Waiting for the Sunrise', cursive;
+
+      @media (max-width: 800px) {
+        padding: 0;
+        height: 50px;
+        font-size: 27px;
+        margin-bottom: 30px;
+        margin-left: 0;
+      }
+    }
+  }
+
+  .containerx {
+    overflow: scroll;
+    width: 65%;
+    margin-top: 30px;
+
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &.show {
+      display: none;
+    }
+
+    .all-books {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      @media (max-width: 800px) {
+        justify-content: center;
+      }
+
+      .position {
+        margin: 20px 10px;
+        transition: filter .4s ease-in-out;
+        -webkit-filter: grayscale(85%);
+        filter: grayscale(85%);
+        font-family: 'Life Savers', cursive;
+        font-weight: 700;
+        font-size: 11px;
+        &:hover {
+          -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+        }
+
+        .small-cover {
+          width: 204px;
+          height: 306px;
+          border-radius: 10px;
+          border: 3px solid white;
+        }
+
+        .position-content {
+          background-color: transparent;
+          color: black;
+          text-align: center;
+          /*line-height: 9px;*/
+          max-width: 204px;
+
+          .position-read-more-button {
+            font-size: 15px;
+            text-decoration: underline;
+            margin-top: 30px;
+          }
+
+          .position-change-buttons {
+            display: flex;
+            /*flex-direction: column;*/
+            justify-content: center;
+            margin-top: 7px;
+
+            .position-delete-button {
+              margin-left: 5px;
+            }
+          }
+
+          .title {
+            font-size: 18px;
+            margin-top: 3px;
+          }
+
+          .author {
+            margin-bottom: 12px;
+            margin-top: 8px;
+          }
+
+        }
+
+      }
+    }
+  }
+}

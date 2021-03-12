@@ -1,0 +1,79 @@
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 800px) {
+    justify-content: flex-start;
+  }
+
+  .logo-handler {
+    width: 300px;
+    position: relative;
+
+
+    .logo2-center {
+      background-image: url("https://image.freepik.com/free-photo/3d-render-space-background-with-abstract-planets-nebula_1048-12994.jpg");
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      width: 230px;
+      height: 230px;
+      position: absolute;
+      z-index: 1;
+      left: 40px;
+      top: 85px;
+      transition: filter .3s ease-in-out;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      &:hover {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+      }
+
+      @media (max-width: 800px) {
+        top: -15px;
+        left: 60px;
+        width: 100px;
+        height: 100px;
+      }
+
+      .text {
+        position: absolute;
+        width: 230px;
+        z-index: 3;
+        left: 7px;
+        top: 70px;
+        font-family: 'Waiting for the Sunrise', cursive;
+        font-size: 53px;
+        color: white;
+
+        @media (max-width: 800px) {
+          top: 34px;
+          width: 100px;
+          font-size: 22px
+        }
+      }
+    }
+
+    .text2-center {
+      position: absolute;
+      z-index: 3;
+      left: -40px;
+      top: 145px;
+      font-family: 'Waiting for the Sunrise', cursive;
+      font-size: 63px;
+
+      @media (max-width: 800px) {
+        left: 27px;
+        top: 18px;
+        width: 100px;
+        font-size: 24px
+      }
+    }
+
+  }
+}
+
+
+

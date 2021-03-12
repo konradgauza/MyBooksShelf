@@ -1,0 +1,125 @@
+
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 550px) {
+    background-color: #16182f;
+  }
+
+  .login-form {
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #16182f;
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    position: relative;
+
+    @media (max-width: 550px) {
+      box-shadow: unset;
+    }
+  }
+
+  .register-form {
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #16182f;
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    position: relative;
+
+    @media (max-width: 550px) {
+      box-shadow: unset;
+    }
+  }
+
+  label {
+    color: white;
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    padding: 10px 25px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    text-align: center;
+    transition: all 400ms ease-in-out;
+
+    &:focus {
+      background: rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  button {
+    border: none;
+    outline: none;
+    width: 60%;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: #603bbb;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: all 400ms ease-in-out;
+
+    &:hover {
+      background: #9042f2;
+    }
+  }
+
+  p {
+    margin: 24px 0 0 0;
+    text-align: right;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    bottom: 30px;
+
+
+    span {
+      color: yellow;
+      font-weight: 500;
+      letter-spacing: .5px;
+      margin-left: 5px;
+      cursor: pointer;
+      transition: all 400ms ease-in-out;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+
+  .errorMsg {
+    position: unset;
+  }
+
+}

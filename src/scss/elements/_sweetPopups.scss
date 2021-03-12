@@ -1,0 +1,105 @@
+
+.swal-alert {
+  background-color: white;
+  //background-image: url("https://image.freepik.com/free-photo/3d-render-space-background-with-abstract-planets-nebula_1048-12994.jpg");
+  //transition: filter .4s ease-in-out;
+  //-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  //filter: grayscale(100%);
+  position: relative;
+  top: 0;
+  right: 0;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid black;
+  width: 700px;
+  height: 200px;
+  //&:hover {
+  //  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  //  filter: grayscale(0%); /* FF 35+ */
+  //}
+
+  @media (max-width: 800px) {
+    width: 90vw;
+    height: auto;
+  }
+
+
+  .swal-text {
+    color: black;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 55px;
+
+    @media (max-width: 470px) {
+      font-size: 40px;
+    }
+  }
+
+  .swal-title {
+    color: black;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 55px;
+
+    @media (max-width: 470px) {
+      font-size: 40px;
+    }
+  }
+
+  .swal-button.swal-button--confirm.swal-button--danger {
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    position: absolute;
+    bottom: -84px;
+    right: -20px;
+    font-size: 20px;
+
+    @media (max-width: 470px) {
+      font-size: 16px;
+    }
+
+    &:hover {
+      background-color: lightgray;
+    }
+  }
+
+
+  .swal-button.swal-button--confirm {
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    position: absolute;
+    bottom: -84px;
+    right: 0;
+    font-size: 20px;
+
+    @media (max-width: 470px) {
+      font-size: 16px;
+    }
+
+    &:hover {
+      background-color: lightgray;
+    }
+  }
+
+
+  .swal-button.swal-button--cancel {
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    position: absolute;
+    bottom: -84px;
+    right: 60px;
+    font-size: 20px;
+
+    @media (max-width: 470px) {
+      font-size: 16px;
+    }
+
+    &:hover {
+      background-color: lightgray;
+    }
+
+  }
+}
+
+
