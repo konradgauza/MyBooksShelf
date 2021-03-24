@@ -2,7 +2,7 @@
 
 My bookshelf
 
-Your private online library. We can sort books according to their status, progress and other variables. Be creative our own description and provide the cover we like the most. Everything is modifiable. Create your own library!
+Your private online library. We can sort books according to their status, progress and other variables. Be creative our own description and provide the cover we like the most. Everything is modifiable.  Create your own library!
 
 Check out full functionality from the test account:
 
