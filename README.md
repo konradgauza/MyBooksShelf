@@ -22,21 +22,21 @@ hasło: test123
 
 - Wyświetlanie biblioteki ksiązek z możliwoscia sortowania
 
--Dodawanie nowych skiażek z pełną edycją. Możliwośc ustawienia własnego opisu, ulubionych cytatów, informacji gdzie skiażka obecnie się znajduje. Czy pożyczliśmy ją komuś i inne
+- Dodawanie nowych skiażek z pełną edycją. Możliwośc ustawienia własnego opisu, ulubionych cytatów, informacji gdzie skiażka obecnie się znajduje. Czy pożyczliśmy ją komuś i inne
 
--Edycja książek
+- Edycja książek
 
--Dane aktualizowane w czasie rzeczywistym
+- Dane aktualizowane w czasie rzeczywistym
 
--Usuwanie/dodawanie książek
+- Usuwanie/dodawanie książek
 
--Wyszukiwanie książek
+- Wyszukiwanie książek
 
--Walidacja danych
+- Walidacja danych
 
--Rejestracja oraz logowanie użytkownika
+- Rejestracja oraz logowanie użytkownika
 
--Wszystkie dane przechowywane na serwerze zewnętrznym firebase
+- Wszystkie dane przechowywane na serwerze zewnętrznym firebase
 
 ### Użyte technologie:
 
