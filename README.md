@@ -1,6 +1,6 @@
 # Projekt My bookshelf
 
-Aplikacja do tworzenia własnej spersonalizowej biblioteki.
+Aplikacja do tworzenia spersonalizowej biblioteki książek.
 
 Dane do logowania na konto testowe:
 
@@ -11,7 +11,7 @@ hasło: test123
 
 ## Dostępność
 
-- Pełne repozytorium dostepne na GitHub pod adresem: https://github.com/konradgauza/MyBooksshelf
+- Pełne repozytorium dostepne na GitHub pod adresem: https://github.com/konradgauza/MyBookshelf
 
 - Wersja live dostępna pod adresem: https://hostingtest-d385f.web.app
 
