@@ -6,8 +6,8 @@ My private online library. We can sort books according to their status, progress
 
 Check out full functionality from the test account:
 
-Login: konradgauza@gmail.com
-Password: test123
+- Login: konradgauza@gmail.com
+- Password: test123
 
 
 
