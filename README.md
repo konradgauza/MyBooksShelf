@@ -1,4 +1,4 @@
-# Projekt Oddam rzeczy w dobre ręcę
+# Projekt My bookshelf
 
 Aplikacja do tworzenia własnej spersonalizowej biblioteki.
 
