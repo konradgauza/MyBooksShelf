@@ -22,7 +22,7 @@ hasło: test123
 
 - Wyświetlanie biblioteki ksiązek z możliwoscia sortowania
 
--Dodawanie nowych skiażek z pełną edycją. Możliwośc ustawienia własnego opisu, ulubionych sytatów, informacji gdzie skiażka obecnie się znajduje. Czy pożyczliśmy ją komuś itd.
+-Dodawanie nowych skiażek z pełną edycją. Możliwośc ustawienia własnego opisu, ulubionych cytatów, informacji gdzie skiażka obecnie się znajduje. Czy pożyczliśmy ją komuś i inne
 
 -Edycja książek
 
