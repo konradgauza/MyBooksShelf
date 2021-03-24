@@ -1,44 +1,44 @@
-# Projekt My bookshelf
+# My bookshelf project
 
-Aplikacja do tworzenia spersonalizowej biblioteki książek.
+My bookshelf
 
-Dane do logowania na konto testowe:
+My private online library. We can sort books according to their status, progress and other variables. We can create our own description and provide the cover we like the most. Everything is modifiable. Create your own library!
 
-login: konradgauza@gmail.com
-hasło: test123
+Check out full functionality from the test account:
 
-
-
-## Dostępność
-
-- Pełne repozytorium dostepne na GitHub pod adresem: https://github.com/konradgauza/MyBookshelf
-
-- Wersja live dostępna pod adresem: https://hostingtest-d385f.web.app
-
-- Projekt dostępny jest w wersji desktopowej jak i mobilnej
+Login: konradgauza@gmail.com
+Password: test123
 
 
-## Składowe aplikacji
 
-- Wyświetlanie biblioteki ksiązek z możliwoscia sortowania
+## Availability
 
-- Dodawanie nowych skiażek z pełną edycją. Możliwośc ustawienia własnego opisu, ulubionych cytatów, informacji gdzie skiażka obecnie się znajduje. Czy pożyczliśmy ją komuś i inne
+- Full repository available on GitHub at: https://github.com/konradgauza/MyBookshelf 
 
-- Edycja książek
+- Online version available at: https://hostingtest-d385f.web.app 
 
-- Dane aktualizowane w czasie rzeczywistym
+- Project is responsive
 
-- Usuwanie/dodawanie książek
 
-- Wyszukiwanie książek
+## Capabilities
 
-- Walidacja danych
+- Register new account and login easly
 
-- Rejestracja oraz logowanie użytkownika
+- Display your books in smart component
 
-- Wszystkie dane przechowywane na serwerze zewnętrznym firebase
+- Add new book
 
-### Użyte technologie:
+- Edit your books in real time
+
+- Delete books in real time
+
+- Personalize the cover and book data
+
+- Find books by author, title, polish title in real time
+
+- Display book cover and description in responsive pop-up
+
+## Technologies:
 
 - Create React App
 - React
@@ -47,11 +47,9 @@ hasło: test123
 - React Hamburger menu
 - React Typist
 - Sweetalert
-- Formularz kontrolowany
+- Controlled forms
 - Node Sass
 - Firebase Auth
 - Firebase Cloud Firestore
 - Firebase Hosting
-- Walidacja danych
-- Customowe pop-upy
-- Inne
+- Other
