@@ -1,4 +1,4 @@
-# Give Away for those in need!
+# Build your personalized library!
 
 > **Concept**: Your private online library. You can sort books according to their status, progress and other variables. Be creative, write your own description and provide the cover you like the most. Everything is modifiable. Create your own library!
 
