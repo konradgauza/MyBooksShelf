@@ -99,7 +99,6 @@
           background-color: transparent;
           color: black;
           text-align: center;
-          /*line-height: 9px;*/
           max-width: 204px;
 
           .position-read-more-button {
@@ -110,7 +109,6 @@
 
           .position-change-buttons {
             display: flex;
-            /*flex-direction: column;*/
             justify-content: center;
             margin-top: 7px;
 
@@ -128,9 +126,7 @@
             margin-bottom: 12px;
             margin-top: 8px;
           }
-
         }
-
       }
     }
   }

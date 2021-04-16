@@ -6,7 +6,7 @@ const LogoCenter = () => {
         <div id={"logo-container"} className={"logo-container"}>
             <div id={"logo-handler"} className={"logo-handler"}>
                 <Link exact to="/">
-                    <div id={"logo"} className={"logo2-center"}><p className={"text"}> book's shelf </p></div>
+                    <div id={"logo"} className={"logo2-center"}><p className={"text"}> bookshelf </p></div>
                     <p id={"text2"} className={"text2-center"}> My </p>
                 </Link>
             </div>

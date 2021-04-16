@@ -42,16 +42,17 @@
         position: absolute;
         width: 230px;
         z-index: 3;
-        left: 7px;
-        top: 70px;
+        left: 12px;
+        top: 61px;
         font-family: 'Waiting for the Sunrise', cursive;
-        font-size: 53px;
+        font-size: 65px;
         color: white;
 
         @media (max-width: 800px) {
-          top: 34px;
+          top: 30px;
+          left: 7px;
           width: 100px;
-          font-size: 22px
+          font-size: 28px
         }
       }
     }

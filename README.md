@@ -1,44 +1,42 @@
-# My bookshelf project
+# Give Away for those in need!
 
-My bookshelf
-
-Your private online library. We can sort books according to their status, progress and other variables. Be creative, write your own description and provide the cover you like the most. Everything is modifiable.  Create your own library!
-
-Check out full functionality from the test account:
-
-- Login: konradgauza@gmail.com
-- Password: test123
+> **Concept**: Your private online library. You can sort books according to their status, progress and other variables. Be creative, write your own description and provide the cover you like the most. Everything is modifiable. Create your own library!
 
 
 
-## Availability
 
-- Full repository available on GitHub at: https://github.com/konradgauza/MyBookshelf 
+## 🌍 Accessibility
 
-- Online version available at: https://hostingtest-d385f.web.app 
+```Check it online:``` https://hostingtest-d385f.web.app
 
-- Project is responsive
+Login for the test account:
+
+login: ```konradgauza@gmail.com```
+hasło: ```test123```
+### 🏠 Home page
+![demo screenshot](./src/assets/home.png)
+### 📚 List of your books
+![demo screenshot](./src/assets/bookList.png)
+### 📝 Add new book
+![demo screenshot](./src/assets/form.png)
 
 
-## Capabilities
+## 💥 Application
 
-- Register new account and login easly
-
+- Register new account and login easily
 - Display your books in smart component
-
 - Add new book
-
-- Edit your books in real time
-
-- Delete books in real time
-
+- Edit your book data in real time
+- Delete book in real time
 - Personalize the cover and book data
-
 - Find books by author, title, polish title in real time
-
 - Display book cover and description in responsive pop-up
 
-## Technologies:
+## 👌 Functions
+* Responsive Web Design (RWD)
+* All books are saved Cloud Firestore database
+
+## 📓 Used Technologies:
 
 - Create React App
 - React
@@ -52,4 +50,11 @@ Check out full functionality from the test account:
 - Firebase Auth
 - Firebase Cloud Firestore
 - Firebase Hosting
-- Other
+- Firebase API
+
+
+## ⚙️ How to install:
+1. ``` git clone https://github.com/konradgauza/MyBookshelf.git ```
+2. ``` cd MyBookshelf ```
+3. ``` npm i ```
+4. ``` npm start ```

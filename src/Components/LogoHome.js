@@ -13,7 +13,7 @@ const LogoHome = () => {
         <div id={"logo-container"} className={"logo-container-home"}>
             <div id={"logo-handler"} className={"logo-handler-home"}>
                 <Link exact to="/" onClick={reload}>
-                    <div id={"logo"} className={"logo2-home"}><p className={"text-home"}> book's shelf </p></div>
+                    <div id={"logo"} className={"logo2-home"}><p className={"text-home"}> bookshelf </p></div>
                     <p id={"text2"} className={"text2-home"}> My </p>
                 </Link>
             </div>
